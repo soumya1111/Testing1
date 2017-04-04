@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225773" started-at="2017-03-31T12:43:55Z" finished-at="2017-03-31T12:47:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="225773" started-at="2017-03-31T12:43:55Z" finished-at="2017-03-31T12:47:41Z">
+      <class name="performance.ODLoad">
+        <test-method status="PASS" signature="testStudentScheduling(java.lang.String, java.lang.String)[pri:1, instance:performance.ODLoad@1150435]" name="testStudentScheduling" duration-ms="26525" started-at="2017-03-31T18:13:55Z" data-provider="Authentication" finished-at="2017-03-31T18:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainingstudent1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentScheduling -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="6" started-at="2017-03-31T18:14:21Z" finished-at="2017-03-31T18:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+        <test-method status="PASS" signature="testStudentScheduling(java.lang.String, java.lang.String)[pri:1, instance:performance.ODLoad@1150435]" name="testStudentScheduling" duration-ms="25785" started-at="2017-03-31T18:14:21Z" data-provider="Authentication" finished-at="2017-03-31T18:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainingstudent2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentScheduling -->
+        <test-method status="PASS" signature="testStudentScheduling(java.lang.String, java.lang.String)[pri:1, instance:performance.ODLoad@1150435]" name="testStudentScheduling" duration-ms="23595" started-at="2017-03-31T18:14:47Z" data-provider="Authentication" finished-at="2017-03-31T18:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trainingstudent3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentScheduling -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="0" started-at="2017-03-31T18:14:47Z" finished-at="2017-03-31T18:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="0" started-at="2017-03-31T18:15:11Z" finished-at="2017-03-31T18:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+        <test-method status="PASS" signature="testTutorSessionJoin(java.lang.String, java.lang.String)[pri:0, instance:performance.ODLoad@1150435]" name="testTutorSessionJoin" duration-ms="48890" started-at="2017-03-31T18:15:11Z" data-provider="TAuthentication" depends-on-methods="performance.ODLoad.testStudentScheduling" finished-at="2017-03-31T18:16:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[traineetutor1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTutorSessionJoin -->
+        <test-method status="PASS" signature="testTutorSessionJoin(java.lang.String, java.lang.String)[pri:0, instance:performance.ODLoad@1150435]" name="testTutorSessionJoin" duration-ms="52993" started-at="2017-03-31T18:16:00Z" data-provider="TAuthentication" depends-on-methods="performance.ODLoad.testStudentScheduling" finished-at="2017-03-31T18:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[traineetutor2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTutorSessionJoin -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="0" started-at="2017-03-31T18:16:00Z" finished-at="2017-03-31T18:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="0" started-at="2017-03-31T18:16:53Z" finished-at="2017-03-31T18:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+        <test-method status="PASS" signature="testTutorSessionJoin(java.lang.String, java.lang.String)[pri:0, instance:performance.ODLoad@1150435]" name="testTutorSessionJoin" duration-ms="47908" started-at="2017-03-31T18:16:53Z" data-provider="TAuthentication" depends-on-methods="performance.ODLoad.testStudentScheduling" finished-at="2017-03-31T18:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[traineetutor3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTutorSessionJoin -->
+        <test-method status="PASS" signature="isAlertPresent()[pri:0, instance:performance.ODLoad@1150435]" name="isAlertPresent" is-config="true" duration-ms="0" started-at="2017-03-31T18:17:41Z" finished-at="2017-03-31T18:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAlertPresent -->
+      </class> <!-- performance.ODLoad -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
